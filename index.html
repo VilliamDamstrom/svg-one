@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/svg.css">
     <title>Svg</title>
 </head>
 <body>
+    <main>
     <svg width="240" height="240" viewbox="0 0 240 240" style="border: 1px solid">
         <circle cx="100" cy="100" r="100" fill="yellow">
         </circle>
@@ -19,5 +20,9 @@
         <circle cx="110" cy="110" r="100" stroke-width="20" fill="white" stroke="purple"/>
         <polyline points="60,110 110,135 200,00" stroke="purple" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
+    <svg>
+        <use xlink:href="images/kiwi.svg#kiwi-bird"></use>
+    </svg>
+    </main>
 </body>
 </html>
